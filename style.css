@@ -41,7 +41,7 @@ body {
     transition: 0.5s ease;
 }
 .f-link:hover {
-    color: #57e581;
+    color: #dc47f3;
     transform: scale(1.1);
 }
 /* WEATHER */
@@ -157,7 +157,7 @@ ul.note-wrapper {
     color: grey;
 }
 .fa-trash:hover {
-    color: red;
+    color: brown;
 }
 ul.note-wrapper li {
     display: flex;
