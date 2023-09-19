@@ -32,14 +32,18 @@ body {
 
     display: grid;
     align-items: center;
+    justify-self: start;
     gap: 15px;
 }
+
 .f-link {
     font-size: 18px;
     color: lightgrey;
     cursor: pointer;
     transition: 0.5s ease;
+    display: flex;
 }
+
 .f-link:hover {
     color: #dc47f3;
     transform: scale(1.1);
