@@ -1,0 +1,197 @@
+/* KARLA FONT */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: whitesmoke;
+    background: #1c1c1c;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 20px;
+    font-family: "Karla", sans-serif;
+}
+.top {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    display: grid;
+    align-items: center;
+    gap: 15px;
+}
+.f-link {
+    font-size: 18px;
+    color: lightgrey;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.f-link:hover {
+    color: #57e581;
+    transform: scale(1.1);
+}
+/* WEATHER */
+.weather {
+    grid-column: 4/5;
+    justify-self: end;
+}
+div.weather-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+img.weather-icon {
+    width: 40px;
+}
+p.tempText {
+    font-size: 1.5rem;
+}
+p.city-name {
+    font-size: 0.8rem;
+    color: lightgray;
+}
+p#dateEl {
+    font-size: 1rem;
+}
+/* TIME */
+.time {
+    text-align: center;
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+
+p#current-hours,
+p#current-minutes {
+    width: 250px;
+    text-align: center;
+    font-size: 10rem;
+    font-weight: bold;
+    color: #afb2b6;
+    background-color: #353637;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+#am-pm {
+    color: #afb2b6;
+    font-size: 2rem;
+    align-self: end;
+}
+.date-top {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* AUTHOR */
+.author {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    align-self: flex-end;
+}
+p#authorEl {
+    font-size: 1rem;
+}
+/* TODO */
+.todo {
+    grid-column: 4/5;
+    grid-row: 2/5;
+    justify-self: flex-end;
+    width: 100%;
+    max-width: 300px;
+    /* height: 100%; */
+    max-height: 200px;
+    position: relative;
+    top: 170px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #ebecac;
+    color: black;
+    word-break: break-all;
+    opacity: 0.9;
+}
+
+#todo-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 1rem;
+    font-family: "Karla", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#todo-btn:hover {
+    text-decoration: underline;
+}
+div.todo-top {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: black;
+}
+ul.note-wrapper {
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.fa-trash {
+    margin-left: auto;
+    font-size: 15px;
+    color: grey;
+}
+.fa-trash:hover {
+    color: red;
+}
+ul.note-wrapper li {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 3px 0;
+}
+
+.text-input {
+    width: 100%;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    color: grey;
+    outline: none;
+}
+.text-input::placeholder {
+    color: #1c1c1c;
+}
+
+.todoToggle {
+    display: none;
+}
+
+/* scrollbar */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: blueviolet;
+    border-radius: 100vw;
+}

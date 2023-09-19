@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personal Dashboard</title>
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+        <link rel="manifest" href="images/site.webmanifest" />
+        <!-- fontawesome icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="top">
+                <a href="https://www.facebook.com/alyxnchz" target="_blank"><i class="fa-brands fa-facebook f-link"></i></a>
+                <a href="https://www.messenger.com/t/100001945683577" target="_blank"><i class="fa-brands fa-facebook-messenger f-link"></i></a>
+                <a href="https://github.com/sanchezalyssa" target="_blank"><i class="fa-brands fa-github f-link"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube f-link"></i></a>
+                <a href="https://discord.com/channels/684009642984341525/919155035961688065" target="_blank"
+                    ><i class="fa-brands fa-discord f-link"></i
+                ></a>
+                <a href="mainto:ww7aly" target="_blank"><i class="fa-solid fa-envelope f-link"></i></a>
+            </div>
+            <div class="weather">
+                <div class="weather-top">
+                    <p id="temperature" class="tempText"></p>
+                    <img alt="weather icon" id="weather-icon" class="weather-icon" />
+                </div>
+                <p id="city-name" class="city-name"></p>
+                <p id="dateEl"></p>
+            </div>
+            <div class="time">
+                <div class="date-top">
+                    <p id="current-hours"></p>
+                    <p id="current-minutes"></p>
+                    <p id="am-pm"></p>
+                </div>
+            </div>
+            <div class="author">
+                <p id="authorEl">author</p>
+            </div>
+            <div class="todo" id="todo">
+                <div class="todo-top">
+                    <ul class="note-wrapper" id="note-wrapper">
+                        <!-- todo here -->
+                    </ul>
+                    <input type="text" id="text-input" class="text-input" placeholder="New todo" />
+                </div>
+            </div>
+            <button id="todo-btn">Todo</button>
+        </div>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <script src="app.js"></script>
+    </body>
+</html>
