@@ -40,12 +40,12 @@ body {
     font-size: 18px;
     color: lightgrey;
     cursor: pointer;
-    transition: 0.5s ease;
+    transition: transform 0.5s ease-in-out;
     display: flex;
 }
 
 .f-link:hover {
-    color: #dc47f3;
+    color: white;
     transform: scale(1.1);
 }
 /* WEATHER */
@@ -123,9 +123,8 @@ p#authorEl {
     padding: 15px;
     border-radius: 4px;
     background-color: #ebecac;
-    color: black;
+    color: grey;
     word-break: break-all;
-    opacity: 0.9;
 }
 
 #todo-btn {
@@ -181,7 +180,7 @@ ul.note-wrapper li {
     outline: none;
 }
 .text-input::placeholder {
-    color: #1c1c1c;
+    color: grey;
 }
 
 .todoToggle {
