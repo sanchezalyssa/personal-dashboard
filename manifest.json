@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "Alyssa's Personal Dashboard",
     "action": {
-        "default_icon": "images/dashboard.png"
+        "default_icon": "images/logo.png"
     },
     "chrome_url_overrides": {
         "newtab": "index.html"
