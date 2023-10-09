@@ -16,7 +16,7 @@ body {
     background-size: cover;
 
     color: whitesmoke;
-    background: #1c1c1c;
+    background: #2f3e46;
 }
 .container {
     height: 100vh;
@@ -84,8 +84,8 @@ p#current-minutes {
     text-align: center;
     font-size: 10rem;
     font-weight: bold;
-    color: #c8ccd1;
-    background-color: #353637;
+    color: #2f3e46;
+    background-color: #52796f;
     border-radius: 20px;
     padding: 0 20px;
 }
@@ -122,9 +122,10 @@ p#authorEl {
     top: 195px;
     padding: 15px;
     border-radius: 4px;
-    background-color: #ebecac;
-    color: grey;
+    background-color: #354e52;
+    color: #cad2c5;
     word-break: break-all;
+    box-shadow: 6px 6px #84a98c;
 }
 
 #todo-btn {
@@ -146,7 +147,7 @@ div.todo-top {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    color: black;
+    color: #cad2c5;
 }
 ul.note-wrapper {
     height: 100%;
@@ -157,10 +158,10 @@ ul.note-wrapper {
 .fa-trash {
     margin-left: auto;
     font-size: 15px;
-    color: grey;
+    color: #cad2c5;
 }
 .fa-trash:hover {
-    color: brown;
+    color: #84a98c;
 }
 ul.note-wrapper li {
     display: flex;
@@ -176,11 +177,11 @@ ul.note-wrapper li {
     margin-top: 10px;
     background-color: transparent;
     border: none;
-    color: grey;
+    color: #cad2c5;
     outline: none;
 }
 .text-input::placeholder {
-    color: grey;
+    color: #cad2c5;
 }
 
 .todoToggle {
@@ -195,6 +196,6 @@ ul.note-wrapper li {
     background-color: transparent;
 }
 *::-webkit-scrollbar-thumb {
-    background-color: blueviolet;
+    background-color: lightgray;
     border-radius: 100vw;
 }
