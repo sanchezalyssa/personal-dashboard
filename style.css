@@ -15,8 +15,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    color: whitesmoke;
-    background: #2f3e46;
+    color: #edf2f4;
+    background: #916db3;
 }
 .container {
     height: 100vh;
@@ -52,6 +52,7 @@ body {
 .weather {
     grid-column: 4/5;
     justify-self: end;
+    z-index: 999;
 }
 div.weather-top {
     display: flex;
@@ -84,15 +85,16 @@ p#current-minutes {
     text-align: center;
     font-size: 10rem;
     font-weight: bold;
-    color: #2f3e46;
-    background-color: #52796f;
+    color: #e48586;
+    background-color: #fcbaad;
     border-radius: 20px;
     padding: 0 20px;
+    z-index: 999;
 }
 #am-pm {
-    color: #afb2b6;
-    font-size: 2rem;
+    font-size: 2.3rem;
     align-self: end;
+    z-index: 999;
 }
 .date-top {
     margin-top: 2em;
@@ -105,6 +107,10 @@ p#current-minutes {
     grid-column: 1/2;
     grid-row: 4/5;
     align-self: flex-end;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 p#authorEl {
     font-size: 1rem;
@@ -122,10 +128,10 @@ p#authorEl {
     top: 195px;
     padding: 15px;
     border-radius: 4px;
-    background-color: #354e52;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    opacity: 2;
     word-break: break-all;
-    box-shadow: 6px 6px #84a98c;
+    z-index: 999;
 }
 
 #todo-btn {
@@ -147,7 +153,7 @@ div.todo-top {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    color: whitesmoke;
+    color: #7f5539;
 }
 ul.note-wrapper {
     height: 100%;
@@ -158,10 +164,10 @@ ul.note-wrapper {
 .fa-trash {
     margin-left: auto;
     font-size: 15px;
-    color: #cad2c5;
+    color: #ddb892;
 }
 .fa-trash:hover {
-    color: #84a98c;
+    color: #7f5539;
 }
 ul.note-wrapper li {
     display: flex;
@@ -177,15 +183,22 @@ ul.note-wrapper li {
     margin-top: 10px;
     background-color: transparent;
     border: none;
-    color: #cad2c5;
+    color: #7f5539;
     outline: none;
 }
 .text-input::placeholder {
-    color: #cad2c5;
+    color: #ac7a59;
 }
 
 .todoToggle {
     display: none;
+}
+/* png background */
+.astronaut {
+    width: 380px;
+    position: fixed;
+    top: 80px;
+    left: 90px;
 }
 
 /* scrollbar */

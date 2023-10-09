@@ -19,9 +19,6 @@ function displayTime() {
 //must update time every seconds
 setInterval(displayTime, 1000)
 
-//author
-document.getElementById("authorEl").textContent = `@Alyssa 👩‍💻`
-
 /*get image from unplash
 https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature
 */
