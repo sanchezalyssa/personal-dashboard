@@ -123,7 +123,7 @@ p#authorEl {
     padding: 15px;
     border-radius: 4px;
     background-color: #354e52;
-    color: #cad2c5;
+    color: whitesmoke;
     word-break: break-all;
     box-shadow: 6px 6px #84a98c;
 }
@@ -147,7 +147,7 @@ div.todo-top {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    color: #cad2c5;
+    color: whitesmoke;
 }
 ul.note-wrapper {
     height: 100%;
