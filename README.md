@@ -1,4 +1,4 @@
 # personal-dashboard
-My personal dashboard extension 
-![image](https://github.com/sanchezalyssa/personal-dashboard/assets/132685558/f71c8487-87a4-4524-8264-06716815a842)
 
+My personal dashboard extension
+![image](https://github.com/sanchezalyssa/personal-dashboard/assets/132685558/624553d6-b15f-4925-9e1c-f0096bcc79d3)
