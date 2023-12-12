@@ -8,5 +8,6 @@ My personal dashboard extension
   <li>Open developer mode</li>
   <li>Click load unpacked on the upper left corner and select the folder of the project</li>
 </ol>
-![image](https://github.com/sanchezalyssa/personal-dashboard/assets/132685558/e30c0331-62e8-4bc4-b64d-0bcf324a75c0)
+![image](https://github.com/sanchezalyssa/personal-dashboard/assets/132685558/fcd24194-f55a-47a6-9585-1f97ea272bb7)
+
 
