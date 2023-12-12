@@ -1,20 +1,20 @@
 //get time e.g 11:00 AM
 function displayTime() {
     let date = new Date()
-    let month = date.toLocaleString("en-us", { month: "short" })
-    let day = date.getDate()
-    let weekDay = date.toLocaleString("en-us", { weekday: "short" })
-    let currentDate = `${month} ${day} ${weekDay}`
+    const options = {
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+    }
+    let weekDay = date.toLocaleDateString("en-US", options)
     //e.g 23:30 PM
     let currentHours = `${date.getHours().toString().padStart(2, "0")}`
     let currentMinutes = `${date.getMinutes().toString().padStart(2, "0")}`
-    let midday = `${date.getHours() >= 12 ? "PM" : "AM"}`
+    // let midday = `${date.getHours() >= 12 ? "PM" : "AM"}`
 
     //display time
-    document.getElementById("dateEl").textContent = currentDate
-    document.getElementById("current-hours").textContent = currentHours
-    document.getElementById("current-minutes").textContent = currentMinutes
-    document.getElementById("am-pm").textContent = midday
+    document.getElementById("dateEl").textContent = weekDay
+    document.getElementById("current-hours").textContent = `${currentHours}:${currentMinutes} ` // 12:20
 }
 //must update time every seconds
 setInterval(displayTime, 1000)

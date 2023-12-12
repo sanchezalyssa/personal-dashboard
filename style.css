@@ -9,14 +9,8 @@
     box-sizing: border-box;
 }
 body {
-    background: no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
     color: #edf2f4;
-    background: #916db3;
+    background: #303841;
 }
 .container {
     height: 100vh;
@@ -63,14 +57,15 @@ img.weather-icon {
     width: 40px;
 }
 p.tempText {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
 }
 p.city-name {
-    font-size: 0.8rem;
-    color: lightgray;
+    font-size: 1.1875rem;
+    color: #f5f5f5;
 }
 p#dateEl {
-    font-size: 1rem;
+    font-size: 1.1875rem;
+    color: #f5f5f5;
 }
 /* TIME */
 .time {
@@ -85,23 +80,11 @@ p#current-minutes {
     text-align: center;
     font-size: 10rem;
     font-weight: bold;
-    /* color: #e48586;
-    background-color: #fcbaad; */
-    /* background-color: whitesmoke; */
-    color: violet;
-    /* border-radius: 20px; */
+    color: #a8dadc;
     padding: 0 20px;
     z-index: 999;
+}
 
-    border-radius: 19px;
-    background: #e0e0e0;
-    box-shadow: inset 5px 5px 12px #b8b8b8, inset -5px -5px 12px #ffffff;
-}
-#am-pm {
-    font-size: 2.3rem;
-    align-self: end;
-    z-index: 999;
-}
 .date-top {
     margin-top: 2em;
     display: flex;
@@ -134,7 +117,7 @@ p#authorEl {
     top: 195px;
     padding: 15px;
     border-radius: 6px;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     word-break: break-all;
     z-index: 999;
 }
@@ -158,7 +141,7 @@ div.todo-top {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    color: #1c1c1c;
+    color: #303841;
 }
 ul.note-wrapper {
     height: 100%;
@@ -169,10 +152,10 @@ ul.note-wrapper {
 .fa-trash {
     margin-left: auto;
     font-size: 15px;
-    color: #ddb892;
+    color: #303841;
 }
 .fa-trash:hover {
-    color: #7f5539;
+    color: #97ccce;
 }
 ul.note-wrapper li {
     display: flex;
